@@ -17,6 +17,5 @@ function zhivo_team_meta() {
 }
 add_action( 'carbon_fields_register_fields', 'zhivo_team_meta' );
 
-// Do this in functions.php
 //zhivo_add_meta_to_search('_team_first_name');
 zhivo_add_meta_to_search('_team_position');

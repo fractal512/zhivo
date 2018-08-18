@@ -5,418 +5,430 @@ msgstr ""
 "Project-Id-Version: Zhivo 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/zhivo\n"
 "POT-Creation-Date: 2018-08-17 14:23:39+00:00\n"
+"PO-Revision-Date: 2018-08-17 17:25+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 2.1.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
 #: 404.php:18
 msgid "Oops! That page can&rsquo;t be found."
-msgstr ""
+msgstr "Ой! Эта страница не найдена."
 
 #: 404.php:22
 msgid ""
 "It looks like nothing was found at this location. Maybe try one of the links "
 "below or a search?"
 msgstr ""
+"Ничего не было найдено. Воспользуйтесь ссылками ниже или измените параметры "
+"поиска."
 
 #: 404.php:31
 msgid "Most Used Categories"
-msgstr ""
+msgstr "Популярные категории"
 
 #. translators: %1$s: smiley
 #: 404.php:47
 msgid "Try looking in the monthly archives. %1$s"
-msgstr ""
+msgstr "Попробуйте посмотреть в ежемесячных архивах. %1$s"
 
 #. translators: 1: title.
 #: comments.php:35
 msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr ""
+msgstr "1 комментарий к &ldquo;%1$s&rdquo;"
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:41
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$s комментарий к &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментария к &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s комментариев к &ldquo;%2$s&rdquo;"
 
 #: comments.php:66
 msgid "Comments are closed."
-msgstr ""
+msgstr "Комментарии закрыты."
 
 #: footer.php:18
 msgid "https://wordpress.org/"
-msgstr ""
+msgstr "https://wordpress.org/"
 
 #. translators: %s: CMS name, i.e. WordPress.
 #: footer.php:21
 msgid "Proudly powered by %s"
-msgstr ""
+msgstr "Работает на %s"
 
 #. translators: 1: Theme name, 2: Theme author.
 #: footer.php:27
 msgid "Theme: %1$s by %2$s."
-msgstr ""
+msgstr "Тема: %1$s от %2$s."
 
 #: functions.php:50
 msgid "Primary"
-msgstr ""
+msgstr "Основные"
 
 #: functions.php:93
 msgid "Sidebar"
-msgstr ""
+msgstr "Сайдбар"
 
 #: functions.php:95
 msgid "Add widgets here."
-msgstr ""
+msgstr "Добавьте виджеты здесь."
 
 #: header.php:25
 msgid "Skip to content"
-msgstr ""
+msgstr "Перейти к содержанию"
 
 #: header.php:70
 msgid "Primary Menu"
-msgstr ""
+msgstr "Основное меню"
 
 #: inc/custom-post-types/team-post-type.php:5
 msgctxt "post type general name"
 msgid "Team"
-msgstr ""
+msgstr "Команда"
 
 #: inc/custom-post-types/team-post-type.php:6
 msgctxt "post type singular name"
 msgid "Employee"
-msgstr ""
+msgstr "Сотрудник"
 
 #: inc/custom-post-types/team-post-type.php:7
 msgctxt "admin menu"
 msgid "Our Team"
-msgstr ""
+msgstr "Наша команда"
 
 #: inc/custom-post-types/team-post-type.php:8
 msgctxt "add new on admin bar"
 msgid "Employee"
-msgstr ""
+msgstr "Сотрудника"
 
 #: inc/custom-post-types/team-post-type.php:9
 msgctxt "employee"
 msgid "Add New"
-msgstr ""
+msgstr "Добавить сотрудника"
 
 #: inc/custom-post-types/team-post-type.php:10
 msgid "Add New Employee"
-msgstr ""
+msgstr "Добавить нового сотрудника"
 
 #: inc/custom-post-types/team-post-type.php:11
 msgid "Edit Employee Data"
-msgstr ""
+msgstr "Редактировать данные сотрудника"
 
 #: inc/custom-post-types/team-post-type.php:12
 msgid "New Employee"
-msgstr ""
+msgstr "Новый сотрудник"
 
 #: inc/custom-post-types/team-post-type.php:13
 msgid "View Employee Data"
-msgstr ""
+msgstr "Посмотреть данные сотрудника"
 
 #: inc/custom-post-types/team-post-type.php:14
 msgid "View Employees"
-msgstr ""
+msgstr "Посмотреть сотрудников"
 
 #: inc/custom-post-types/team-post-type.php:15
 msgid "All Employees"
-msgstr ""
+msgstr "Все сотрудники"
 
 #: inc/custom-post-types/team-post-type.php:16
 msgid "Search Employees"
-msgstr ""
+msgstr "Искать сотрудников"
 
 #: inc/custom-post-types/team-post-type.php:17
 msgid "No employees found."
-msgstr ""
+msgstr "Сотрудников не найдено."
 
 #: inc/custom-post-types/team-post-type.php:18
 msgid "No employees found in Trash."
-msgstr ""
+msgstr "Сотрудников не найдено в корзине."
 
 #: inc/custom-post-types/team-post-type.php:19
 msgid "Parent Employee:"
-msgstr ""
+msgstr "Родительский сотрудник:"
 
 #: inc/custom-post-types/team-post-type.php:20
 msgid "Employees Archives"
-msgstr ""
+msgstr "Архивы сотрудников"
 
 #: inc/custom-post-types/team-post-type.php:21
 msgid "Employee Attributes"
-msgstr ""
+msgstr "Атрибуты сотрудников"
 
 #: inc/custom-post-types/team-post-type.php:22
 msgid "Insert into employee data"
-msgstr ""
+msgstr "Вставить в данные сотрудника"
 
 #: inc/custom-post-types/team-post-type.php:23
 msgid "Uploaded to this employee"
-msgstr ""
+msgstr "Загрузить для этого сотрудника"
 
 #: inc/custom-post-types/team-post-type.php:24
 msgid "Employee Photo"
-msgstr ""
+msgstr "Фото сотрудника"
 
 #: inc/custom-post-types/team-post-type.php:25
 msgid "Set employee photo"
-msgstr ""
+msgstr "Добавить фото сотрудника"
 
 #: inc/custom-post-types/team-post-type.php:26
 msgid "Remove employee photo"
-msgstr ""
+msgstr "Удалить фото сотрудника"
 
 #: inc/custom-post-types/team-post-type.php:27
 msgid "Use as employee photo"
-msgstr ""
+msgstr "Использовать как фото сотрудника"
 
 #: inc/custom-post-types/team-post-type.php:28
 msgid "Filter employees list"
-msgstr ""
+msgstr "Фильтровать список сотрудников"
 
 #: inc/custom-post-types/team-post-type.php:29
 msgid "Employees list navigation"
-msgstr ""
+msgstr "Навигация по списку сотрудников"
 
 #: inc/custom-post-types/team-post-type.php:30
 msgid "Employees List"
-msgstr ""
+msgstr "Список сотрудников"
 
 #: inc/custom-post-types/team-post-type.php:54
 #: inc/custom-post-types/team-post-type.php:57
 msgid "Employee data updated."
-msgstr ""
+msgstr "Данные сотрудника обновлены."
 
 #: inc/custom-post-types/team-post-type.php:55
 msgid "Custom field updated."
-msgstr ""
+msgstr "Пользовательское поле обновлено."
 
 #: inc/custom-post-types/team-post-type.php:56
 msgid "Custom field deleted."
-msgstr ""
+msgstr "Пользовательское поле удалено."
 
 #. translators: %s: date and time of the revision
 #: inc/custom-post-types/team-post-type.php:59
 msgid "Employee restored to revision from %s"
-msgstr ""
+msgstr "Сотрудник восстановлен до ревизии %s"
 
 #: inc/custom-post-types/team-post-type.php:60
 msgid "Employee published."
-msgstr ""
+msgstr "Сотрудник опубликован."
 
 #: inc/custom-post-types/team-post-type.php:61
 msgid "Employee saved."
-msgstr ""
+msgstr "Сотрудник сохранен."
 
 #: inc/custom-post-types/team-post-type.php:62
 msgid "Employee submitted."
-msgstr ""
+msgstr "Сотрудник принят."
 
 #: inc/custom-post-types/team-post-type.php:64
 msgid "Employee scheduled for: <strong>%1$s</strong>."
-msgstr ""
+msgstr "Сотрудник запланирован на: <strong>%1$s</strong>."
 
 #. translators: Publish box date format, see http://php.net/date
 #: inc/custom-post-types/team-post-type.php:68
 msgid "Employee draft updated."
-msgstr ""
+msgstr "Черновик сотрудника обновлен."
 
 #: inc/custom-post-types/team-post-type.php:74
 msgid "View employee"
-msgstr ""
+msgstr "Посмотреть сотрудника"
 
 #: inc/custom-post-types/team-post-type.php:80
 msgid "Preview employee"
-msgstr ""
+msgstr "Предпросмотр сотрудника"
 
 #: inc/custom-post-types/team-post-type.php:94
 msgid "Photo"
-msgstr ""
+msgstr "Фото"
 
 #: inc/custom-post-types/team-post-type.php:95
 msgid "Employee"
-msgstr ""
+msgstr "Сотрудник"
 
 #: inc/custom-post-types/team-post-type.php:96
 msgid "Position"
-msgstr ""
+msgstr "Должность"
 
 #: inc/custom-post-types/team-post-type.php:97
 msgid "Order"
-msgstr ""
+msgstr "Порядок"
 
 #: inc/custom-post-types/team-post-type.php:98
 msgid "Added"
-msgstr ""
+msgstr "Добавлено"
 
 #: inc/custom-post-types/team-post-type.php:111
 #: inc/metaboxes/team-metaboxes.php:11
 msgid "CEO"
-msgstr ""
+msgstr "Директор"
 
 #: inc/custom-post-types/team-post-type.php:112
 #: inc/metaboxes/team-metaboxes.php:12
 msgid "Manager"
-msgstr ""
+msgstr "Менеджер"
 
 #: inc/custom-post-types/team-post-type.php:113
 #: inc/metaboxes/team-metaboxes.php:13
 msgid "Accauntant"
-msgstr ""
+msgstr "Бухгалтер"
 
 #: inc/custom-post-types/team-post-type.php:114
 #: inc/metaboxes/team-metaboxes.php:14
 msgid "Cleaner"
-msgstr ""
+msgstr "Уборщик"
 
 #: inc/metaboxes/team-metaboxes.php:6
 msgid "Employee Meta"
-msgstr ""
+msgstr "Метаданные сотрудника"
 
 #: inc/metaboxes/team-metaboxes.php:9
 msgid "Employee Position"
-msgstr ""
+msgstr "Должность сотрудника"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr ""
+msgstr "Опубликовано %s"
 
 #. translators: %s: post author.
 #: inc/template-tags.php:45
 msgctxt "post author"
 msgid "by %s"
-msgstr ""
+msgstr "автором %s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:62
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #. translators: 1: list of categories.
 #: inc/template-tags.php:65
 msgid "Posted in %1$s"
-msgstr ""
+msgstr "Опубликовано в %1$s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:69
 msgctxt "list item separator"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #. translators: 1: list of tags.
 #: inc/template-tags.php:72
 msgid "Tagged %1$s"
-msgstr ""
+msgstr "Метки %1$s"
 
 #. translators: %s: post title
 #: inc/template-tags.php:82
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr ""
+msgstr "Оставить комментарий<span class=\"screen-reader-text\"> на %s</span>"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:99 template-parts/content-page.php:37
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr ""
+msgstr "Редактировать <span class=\"screen-reader-text\">%s</span>"
 
 #: inc/theme-settings/footer-settings.php:4
 msgid "Footer"
-msgstr ""
+msgstr "Подвал"
 
 #: inc/theme-settings/footer-settings.php:5
 msgid "Footer Copyright"
-msgstr ""
+msgstr "Копирайт подвала"
 
 #: inc/theme-settings/footer-settings.php:6
 #: inc/theme-settings/footer-settings.php:7
 msgid "&copy; All rights reserved."
-msgstr ""
+msgstr "&copy; Все права защищены."
 
 #: inc/theme-settings/header-settings.php:4
 msgid "Header"
-msgstr ""
+msgstr "Шапка"
 
 #: inc/theme-settings/header-settings.php:5
 msgid "Site tagline"
-msgstr ""
+msgstr "Подзаголовок сайта"
 
 #: inc/theme-settings/header-settings.php:8
 msgid "Phones"
-msgstr ""
+msgstr "Телефоны"
 
 #: inc/theme-settings/header-settings.php:11
 msgid "Phone number"
-msgstr ""
+msgstr "Номер телефона"
 
 #: inc/theme-settings/header-settings.php:15
 msgid "Phone"
-msgstr ""
+msgstr "Телефон"
 
 #: inc/theme-settings/settings.php:6
 msgid "Theme settings"
-msgstr ""
+msgstr "Настройки темы"
 
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "Результаты поиска для: %s"
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr ""
+msgstr "Ничего не найдено"
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
+"Готовы опубликовать свой первый пост? <a href=\"%1$s\">Начните здесь</a>."
 
 #: template-parts/content-none.php:37
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
+"Извините, ничего не найдено за Вашими условиями поиска. Пожалуйста, "
+"попытайтесь снова с другими ключевыми словами."
 
 #: template-parts/content-none.php:44
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
+"Кажется, мы не можем найти то, что вы ищете. Возможно, поиск может помочь."
 
 #: template-parts/content-page.php:24 template-parts/content.php:50
 msgid "Pages:"
-msgstr ""
+msgstr "Страницы:"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr ""
+msgstr "Читать далее<span class=\"screen-reader-text\"> \"%s\"</span>"
 
 #. Theme Name of the plugin/theme
 msgid "Zhivo"
-msgstr ""
+msgstr "Zhivo"
 
-#. #-#-#-#-#  zhivo.pot (Zhivo 1.0.0)  #-#-#-#-#
 #. Theme URI of the plugin/theme
-#. #-#-#-#-#  zhivo.pot (Zhivo 1.0.0)  #-#-#-#-#
 #. Author URI of the plugin/theme
 msgid "http://fractal512.pp.ua/"
-msgstr ""
+msgstr "http://fractal512.pp.ua/"
 
 #. Description of the plugin/theme
 msgid "A starter theme for WordPress."
-msgstr ""
+msgstr "Стартовая тема для WordPress."
 
 #. Author of the plugin/theme
 msgid "fractal512"
-msgstr ""
+msgstr "fractal512"
+
+#~ msgid "Fake Lang Text"
+#~ msgstr "Фейковый языковый текст"
