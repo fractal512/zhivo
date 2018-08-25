@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zhivo 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/zhivo\n"
-"POT-Creation-Date: 2018-08-17 14:23:39+00:00\n"
-"PO-Revision-Date: 2018-08-17 17:25+0300\n"
+"POT-Creation-Date: 2018-08-25 15:47:33+00:00\n"
+"PO-Revision-Date: 2018-08-25 18:52+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -89,6 +89,177 @@ msgstr "Перейти к содержанию"
 msgid "Primary Menu"
 msgstr "Основное меню"
 
+#: inc/custom-post-types/product-post-type.php:5
+msgctxt "post type general name"
+msgid "Products"
+msgstr "Товары"
+
+#: inc/custom-post-types/product-post-type.php:6
+msgctxt "post type singular name"
+msgid "Product"
+msgstr "Товар"
+
+#: inc/custom-post-types/product-post-type.php:7
+msgctxt "admin menu"
+msgid "Products"
+msgstr "Товары"
+
+#: inc/custom-post-types/product-post-type.php:8
+msgctxt "add new on admin bar"
+msgid "Product"
+msgstr "Товар"
+
+#: inc/custom-post-types/product-post-type.php:9
+msgctxt "product"
+msgid "Add New"
+msgstr "Добавить новый"
+
+#: inc/custom-post-types/product-post-type.php:10
+msgid "Add New Product"
+msgstr "Добавить новый товар"
+
+#: inc/custom-post-types/product-post-type.php:11
+msgid "Edit Product"
+msgstr "Редактировать товар"
+
+#: inc/custom-post-types/product-post-type.php:12
+msgid "New Product"
+msgstr "Новый товар"
+
+#: inc/custom-post-types/product-post-type.php:13
+msgid "View Product"
+msgstr "Посмотреть товар"
+
+#: inc/custom-post-types/product-post-type.php:14
+msgid "View Products"
+msgstr "Просмотр товаров"
+
+#: inc/custom-post-types/product-post-type.php:15
+msgid "All Products"
+msgstr "Все товары"
+
+#: inc/custom-post-types/product-post-type.php:16
+msgid "Search Products"
+msgstr "Поиск товаров"
+
+#: inc/custom-post-types/product-post-type.php:17
+msgid "No products found."
+msgstr "Товары не найдены."
+
+#: inc/custom-post-types/product-post-type.php:18
+msgid "No products found in Trash."
+msgstr "Не найдено ни одного товара в корзине."
+
+#: inc/custom-post-types/product-post-type.php:20
+msgid "Products Archives"
+msgstr "Архивы товаров"
+
+#: inc/custom-post-types/product-post-type.php:21
+msgid "Product Attributes"
+msgstr "Атрибуты товаров"
+
+#: inc/custom-post-types/product-post-type.php:22
+msgid "Insert into product data"
+msgstr "Вставить в данные товара"
+
+#: inc/custom-post-types/product-post-type.php:23
+msgid "Uploaded to this product"
+msgstr "Загрузить для этого товара"
+
+#: inc/custom-post-types/product-post-type.php:24
+msgid "Product image"
+msgstr "Изображение товара"
+
+#: inc/custom-post-types/product-post-type.php:25
+msgid "Set product image"
+msgstr "Задать изображение товара"
+
+#: inc/custom-post-types/product-post-type.php:26
+msgid "Remove product image"
+msgstr "Удалить изображение товара"
+
+#: inc/custom-post-types/product-post-type.php:27
+msgid "Use as product image"
+msgstr "Использовать как изображение товара"
+
+#: inc/custom-post-types/product-post-type.php:28
+msgid "Filter products list"
+msgstr "Фильтровать список товаров"
+
+#: inc/custom-post-types/product-post-type.php:29
+msgid "Products list navigation"
+msgstr "Навигация по списку товаров"
+
+#: inc/custom-post-types/product-post-type.php:30
+msgid "Products List"
+msgstr "Список товаров"
+
+#: inc/custom-post-types/product-post-type.php:56
+#: inc/custom-post-types/product-post-type.php:59
+msgid "Product updated."
+msgstr "Товар обновлен."
+
+#: inc/custom-post-types/product-post-type.php:57
+#: inc/custom-post-types/team-post-type.php:55
+msgid "Custom field updated."
+msgstr "Пользовательское поле обновлено."
+
+#: inc/custom-post-types/product-post-type.php:58
+#: inc/custom-post-types/team-post-type.php:56
+msgid "Custom field deleted."
+msgstr "Пользовательское поле удалено."
+
+#. translators: %s: date and time of the revision
+#: inc/custom-post-types/product-post-type.php:61
+msgid "Product restored to revision from %s"
+msgstr "Товар восстановлен до ревизии %s"
+
+#: inc/custom-post-types/product-post-type.php:62
+msgid "Product published."
+msgstr "Товар опубликован."
+
+#: inc/custom-post-types/product-post-type.php:63
+msgid "Product saved."
+msgstr "Товар сохранён."
+
+#: inc/custom-post-types/product-post-type.php:64
+msgid "Product submitted."
+msgstr "Товар принят."
+
+#: inc/custom-post-types/product-post-type.php:66
+msgid "Product scheduled for: <strong>%1$s</strong>."
+msgstr "Товар запланирован на: <strong>%1$s</strong>."
+
+#. translators: Publish box date format, see http://php.net/date
+#: inc/custom-post-types/product-post-type.php:70
+msgid "Product draft updated."
+msgstr "Черновик товара обновлен."
+
+#: inc/custom-post-types/product-post-type.php:76
+msgid "View product"
+msgstr "Просмотреть товар"
+
+#: inc/custom-post-types/product-post-type.php:82
+msgid "Preview product"
+msgstr "Предпросмотр товара"
+
+#: inc/custom-post-types/product-post-type.php:96
+msgid "Image"
+msgstr "Изображение"
+
+#: inc/custom-post-types/product-post-type.php:97
+msgid "Product"
+msgstr "Товар"
+
+#: inc/custom-post-types/product-post-type.php:98
+msgid "Product Categories"
+msgstr "Категории товара"
+
+#: inc/custom-post-types/product-post-type.php:99
+#: inc/custom-post-types/team-post-type.php:98
+msgid "Added"
+msgstr "Добавлено"
+
 #: inc/custom-post-types/team-post-type.php:5
 msgctxt "post type general name"
 msgid "Team"
@@ -111,7 +282,7 @@ msgstr "Сотрудника"
 
 #: inc/custom-post-types/team-post-type.php:9
 msgctxt "employee"
-msgid "Add New"
+msgid "Add Employee"
 msgstr "Добавить сотрудника"
 
 #: inc/custom-post-types/team-post-type.php:10
@@ -149,10 +320,6 @@ msgstr "Сотрудников не найдено."
 #: inc/custom-post-types/team-post-type.php:18
 msgid "No employees found in Trash."
 msgstr "Сотрудников не найдено в корзине."
-
-#: inc/custom-post-types/team-post-type.php:19
-msgid "Parent Employee:"
-msgstr "Родительский сотрудник:"
 
 #: inc/custom-post-types/team-post-type.php:20
 msgid "Employees Archives"
@@ -202,14 +369,6 @@ msgstr "Список сотрудников"
 #: inc/custom-post-types/team-post-type.php:57
 msgid "Employee data updated."
 msgstr "Данные сотрудника обновлены."
-
-#: inc/custom-post-types/team-post-type.php:55
-msgid "Custom field updated."
-msgstr "Пользовательское поле обновлено."
-
-#: inc/custom-post-types/team-post-type.php:56
-msgid "Custom field deleted."
-msgstr "Пользовательское поле удалено."
 
 #. translators: %s: date and time of the revision
 #: inc/custom-post-types/team-post-type.php:59
@@ -261,10 +420,6 @@ msgstr "Должность"
 msgid "Order"
 msgstr "Порядок"
 
-#: inc/custom-post-types/team-post-type.php:98
-msgid "Added"
-msgstr "Добавлено"
-
 #: inc/custom-post-types/team-post-type.php:111
 #: inc/metaboxes/team-metaboxes.php:11
 msgid "CEO"
@@ -285,6 +440,14 @@ msgstr "Бухгалтер"
 msgid "Cleaner"
 msgstr "Уборщик"
 
+#: inc/metaboxes/product-metaboxes.php:6
+msgid "Product Meta"
+msgstr "Метаданные товара"
+
+#: inc/metaboxes/product-metaboxes.php:9
+msgid "Product Price"
+msgstr "Цена товара"
+
 #: inc/metaboxes/team-metaboxes.php:6
 msgid "Employee Meta"
 msgstr "Метаданные сотрудника"
@@ -292,6 +455,64 @@ msgstr "Метаданные сотрудника"
 #: inc/metaboxes/team-metaboxes.php:9
 msgid "Employee Position"
 msgstr "Должность сотрудника"
+
+#: inc/taxonomies/product-taxonomies.php:5
+msgctxt "taxonomy general name"
+msgid "Product Categories"
+msgstr "Категории товара"
+
+#: inc/taxonomies/product-taxonomies.php:6
+msgctxt "taxonomy singular name"
+msgid "Product Category"
+msgstr "Категория товара"
+
+#: inc/taxonomies/product-taxonomies.php:7
+msgid "Search Categories"
+msgstr "Искать категории"
+
+#: inc/taxonomies/product-taxonomies.php:12
+msgid "All Categories"
+msgstr "Все категории"
+
+#: inc/taxonomies/product-taxonomies.php:13
+msgid "No categories found."
+msgstr "Категорий не найдено."
+
+#: inc/taxonomies/product-taxonomies.php:14
+msgid "&larr; Back to categories"
+msgstr "&larr; Назад к категориям"
+
+#: inc/taxonomies/product-taxonomies.php:15
+msgid "Parent Category"
+msgstr "Родительская категория"
+
+#: inc/taxonomies/product-taxonomies.php:16
+msgid "Parent Category:"
+msgstr "Родительская категория:"
+
+#: inc/taxonomies/product-taxonomies.php:17
+msgid "Edit Category"
+msgstr "Редактировать категорию"
+
+#: inc/taxonomies/product-taxonomies.php:18
+msgid "View Category"
+msgstr "Посмотреть категорию"
+
+#: inc/taxonomies/product-taxonomies.php:19
+msgid "Update Category"
+msgstr "Обновить категорию"
+
+#: inc/taxonomies/product-taxonomies.php:20
+msgid "Add New Category"
+msgstr "Добавить новую категорию"
+
+#: inc/taxonomies/product-taxonomies.php:21
+msgid "New Category Name"
+msgstr "Имя новой категории"
+
+#: inc/taxonomies/product-taxonomies.php:22
+msgid "Categories"
+msgstr "Категории"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
@@ -369,9 +590,21 @@ msgstr "Номер телефона"
 msgid "Phone"
 msgstr "Телефон"
 
-#: inc/theme-settings/settings.php:6
+#: inc/theme-settings/settings.php:5
 msgid "Theme settings"
 msgstr "Настройки темы"
+
+#: inc/woocommerce.php:227
+msgid "View your shopping cart"
+msgstr "Посмотреть корзину"
+
+#. translators: number of items in the mini cart.
+#: inc/woocommerce.php:231
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d товар"
+msgstr[1] "%d товара"
+msgstr[2] "%d товаров"
 
 #. translators: %s: search query.
 #: search.php:22
@@ -418,9 +651,8 @@ msgid "Zhivo"
 msgstr "Zhivo"
 
 #. Theme URI of the plugin/theme
-#. Author URI of the plugin/theme
-msgid "http://fractal512.pp.ua/"
-msgstr "http://fractal512.pp.ua/"
+msgid "https://github.com/fractal512/zhivo"
+msgstr "https://github.com/fractal512/zhivo"
 
 #. Description of the plugin/theme
 msgid "A starter theme for WordPress."
@@ -429,6 +661,10 @@ msgstr "Стартовая тема для WordPress."
 #. Author of the plugin/theme
 msgid "fractal512"
 msgstr "fractal512"
+
+#. Author URI of the plugin/theme
+msgid "http://fractal512.pp.ua/"
+msgstr "http://fractal512.pp.ua/"
 
 #~ msgid "Fake Lang Text"
 #~ msgstr "Фейковый языковый текст"

@@ -1,5 +1,4 @@
 <?php
-use Carbon_Fields\Field;
 use Carbon_Fields\Container;
 
 function zhivo_attach_theme_settings() {

@@ -115,6 +115,16 @@ function zhivo_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'zhivo_scripts' );
 
+function zhivo_admin_scripts( $hook ) {
+	//wp_die( $hook );
+	if ( $hook != 'edit.php' ) {
+		return;
+	}
+	wp_enqueue_style( 'zhivo-admin-styles', get_template_directory_uri() . '/assets/css/admin-styles.css' );
+	wp_enqueue_script( 'zhivo-admin-scripts', get_template_directory_uri() . '/assets/js/admin-scripts.js', array('jquery'), false, true );
+}
+add_action( 'admin_enqueue_scripts', 'zhivo_admin_scripts' );
+
 /**
  * Custom template tags for this theme.
  */
@@ -150,11 +160,25 @@ add_action( 'after_setup_theme', 'zhivo_crb_load' );
 require get_template_directory() . '/inc/theme-settings/settings.php';
 
 /**
+ * Register taxonomies.
+ */
+require get_template_directory() . '/inc/taxonomies/product-taxonomies.php';
+
+/**
  * Register custom post types.
  */
 require get_template_directory() . '/inc/custom-post-types/team-post-type.php';
+require get_template_directory() . '/inc/custom-post-types/product-post-type.php';
 
 /**
  * Register metaboxes.
  */
 require get_template_directory() . '/inc/metaboxes/team-metaboxes.php';
+require get_template_directory() . '/inc/metaboxes/product-metaboxes.php';
+
+/**
+ * Load WooCommerce compatibility file.
+ */
+if ( class_exists( 'WooCommerce' ) ) {
+	require get_template_directory() . '/inc/woocommerce.php';
+}
