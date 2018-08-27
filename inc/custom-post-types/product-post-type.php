@@ -37,7 +37,7 @@ function zhivo_create_product_post_type() {
 		'hierarchical' => false,
 		'taxonomies' => array( 'zhivo_category' ),
 		'has_archive' => true,
-		'rewrite' => array( 'slug' => 'product' ),
+		'rewrite' => array( 'slug' => 'zhivo-product' ),
 		'supports'=> array('title', 'editor', 'thumbnail')
 	);
 

@@ -27,7 +27,7 @@ function zhivo_create_product_taxonomies() {
 		'labels'            => $labels,
 		'show_admin_column' => true,
 		'rewrite'           => array(
-									'slug' => 'product-category',
+									'slug' => 'zhivo-category',
 									'hierarchical' => true
 									)
 	);

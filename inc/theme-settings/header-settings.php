@@ -2,10 +2,10 @@
 use Carbon_Fields\Field;
 
 $zhivo_theme_settings->add_tab( __('Header', 'zhivo'), array(
-		Field::make( 'text', 'zhv_header_tagline', __('Site tagline', 'zhivo') )
+		Field::make( 'text', 'zhivo_header_tagline', __('Site tagline', 'zhivo') )
 			->set_attribute( 'placeholder', 'Type site slogan here...' ),
 
-		Field::make( 'complex', 'zhv_header_phones', __('Phones', 'zhivo') )
+		Field::make( 'complex', 'zhivo_header_phones', __('Phones', 'zhivo') )
 			->set_layout( 'tabbed-horizontal' )
 			->add_fields( array(
 				Field::make( 'text', 'phone', __('Phone number', 'zhivo') )

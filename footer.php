@@ -26,9 +26,9 @@
 				/* translators: 1: Theme name, 2: Theme author. */
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'zhivo' ), 'Zhivo', '<a href="http://fractal512.pp.ua/">fractal512</a>' );
 				?>
-			<?php if ( carbon_get_theme_option( 'zhv_footer_copyright' ) ) : ?>
+			<?php if ( carbon_get_theme_option( 'zhivo_footer_copyright' ) ) : ?>
 				<span class="sep"> | </span>
-				<?php echo carbon_get_theme_option( 'zhv_footer_copyright' ); ?>
+				<?php echo carbon_get_theme_option( 'zhivo_footer_copyright' ); ?>
 			<?php endif; ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

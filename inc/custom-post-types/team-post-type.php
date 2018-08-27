@@ -93,7 +93,7 @@ function zhivo_team_edit_columns( $columns ) {
 		"cb" => "<input type=\"checkbox\" />",
 		"thumbnail" => __( 'Photo', 'zhivo' ),
 		"title" => __( 'Employee', 'zhivo' ),
-		"_team_position" => __( 'Position', 'zhivo' ),
+		"_zhivo_team_position" => __( 'Position', 'zhivo' ),
 		"menu_order" => __( 'Order', 'zhivo' ),
 		"date" => __( 'Added', 'zhivo' )
 		);
@@ -119,8 +119,8 @@ function zhivo_team_custom_columns( $column ) {
 			case "thumbnail":
 				edit_post_link( wp_get_attachment_image( $custom["_thumbnail_id"][0], 'zhivo-admin-thumb' ) );
 			break;
-			case "_team_position":
-				echo $position[$custom["_team_position"][0]];
+			case "_zhivo_team_position":
+				echo $position[$custom["_zhivo_team_position"][0]];
 			break;
 			case "menu_order":
 				echo $post->menu_order;
@@ -131,7 +131,7 @@ add_action( "manage_zhivo_team_posts_custom_column", "zhivo_team_custom_columns"
 
 function zhivo_team_sortable_columns( $columns ) {
 
-	$columns['_team_position'] = '_team_position';
+	$columns['_zhivo_team_position'] = '_zhivo_team_position';
 	$columns['menu_order'] = 'menu_order';
 
 	return $columns;
@@ -160,12 +160,12 @@ function zhivo_sort_team( $vars ) {
 	if ( isset( $vars['post_type'] ) && 'zhivo_team' == $vars['post_type'] ) {
 
 		/* Check if 'orderby' is set to the needed meta. */
-		if ( isset( $vars['orderby'] ) && '_team_position' == $vars['orderby'] ) {
+		if ( isset( $vars['orderby'] ) && '_zhivo_team_position' == $vars['orderby'] ) {
 			/* Merge the query vars with our custom variables. */
 			$vars = array_merge(
 				$vars,
 				array(
-					'meta_key' => '_team_position',
+					'meta_key' => '_zhivo_team_position',
 					'orderby' => 'meta_value'
 				)
 			);

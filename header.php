@@ -42,21 +42,21 @@
 				<p class="site-description"><?php echo $zhivo_description; /* WPCS: xss ok. */ ?></p>
 			<?php endif; ?>
 			
-			<?php if ( carbon_get_theme_option( 'zhv_header_tagline' ) ) : ?>
-				<p><?php echo carbon_get_theme_option( 'zhv_header_tagline' ); ?></p>
+			<?php if ( carbon_get_theme_option( 'zhivo_header_tagline' ) ) : ?>
+				<p><?php echo carbon_get_theme_option( 'zhivo_header_tagline' ); ?></p>
 			<?php endif; ?>
 			
 			<?php
-			$zhv_header_phones = carbon_get_theme_option( 'zhv_header_phones' );
-			if( ! empty($zhv_header_phones) ):
+			$zhivo_header_phones = carbon_get_theme_option( 'zhivo_header_phones' );
+			if( ! empty($zhivo_header_phones) ):
 			?>
 			<ul class="header-phones">
 			<?php
 			$i = 0;
-			foreach($zhv_header_phones as $zhv_header_phone):
+			foreach($zhivo_header_phones as $zhivo_header_phone):
 			?>
 				<li>
-					<a class="phone icon" href="tel:<?php echo zhivo_sanitize_phone($zhv_header_phone['phone']); ?>"><?php echo $zhv_header_phone['phone']; ?></a>
+					<a class="phone icon" href="tel:<?php echo zhivo_sanitize_phone($zhivo_header_phone['phone']); ?>"><?php echo $zhivo_header_phone['phone']; ?></a>
 				</li>
 			<?php
 			$i++;
