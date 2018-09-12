@@ -61,8 +61,8 @@ function zhivo_team_updated_messages( $messages ) {
 		7 => __( 'Employee saved.', 'zhivo' ),
 		8 => __( 'Employee submitted.', 'zhivo' ),
 		9 => sprintf(
+			// translators: Formatted date, see http://php.net/date
 			__( 'Employee scheduled for: <strong>%1$s</strong>.', 'zhivo' ),
-			// translators: Publish box date format, see http://php.net/date
 			date_i18n( get_option('date_format').' '.get_option('time_format'), strtotime( $post->post_date ) )
 		),
 		10 => __( 'Employee draft updated.', 'zhivo' )

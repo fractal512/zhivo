@@ -107,7 +107,15 @@ add_action( 'widgets_init', 'zhivo_widgets_init' );
 function zhivo_scripts() {
 	wp_enqueue_style( 'zhivo-styles', get_template_directory_uri() . '/assets/css/styles.css' );
 
-	wp_enqueue_script( 'zhivo-scripts', get_template_directory_uri() . '/assets/js/scripts.js', array('jquery'), false, true );
+	wp_register_script( 'zhivo-scripts', get_template_directory_uri() . '/assets/js/scripts.js', array('jquery'), false, true );
+	$jsObj = array(
+		'ajaxUrl' => admin_url( 'admin-ajax.php' ),
+		'loading' => __('Sending...', 'zhivo'),
+		'contactSuccess' => __('Message sent. Thank you!', 'zhivo'),
+		'contactError' => __('Some fields are not filled or filled incorrectly!', 'zhivo')
+	);
+	wp_localize_script( 'zhivo-scripts', 'zObj', $jsObj );
+	wp_enqueue_script( 'zhivo-scripts' );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -144,6 +152,11 @@ require get_template_directory() . '/inc/customizer.php';
  * Custom theme functions.
  */
 require get_template_directory() . '/inc/zhivo-functions.php';
+
+/**
+ * Contact form handler functions.
+ */
+require get_template_directory() . '/inc/mails/contact-form-mail.php';
 
 /**
  * Carbon fields framework.

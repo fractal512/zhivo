@@ -5,6 +5,7 @@
  * @package Zhivo
  */
 
+// Leave digits only in phone number
 function zhivo_sanitize_phone($phone){
 	$phone = preg_replace('/[^0-9]/', '', $phone);
 	if(strlen($phone) === 12) {
@@ -16,7 +17,6 @@ function zhivo_sanitize_phone($phone){
 
 // Add metaboxes to search
 /* ADD META FIELD TO SEARCH QUERY */
-
 function zhivo_add_meta_to_search($field){
 	if(isset($GLOBALS['added_meta_field_to_search_query'])){
 		$GLOBALS['added_meta_field_to_search_query'][] = '\'' . $field . '\'';
@@ -64,4 +64,35 @@ function zhivo_add_meta_to_search($field){
 
 		return $search_sql;
 	});
+}
+
+// Get current url
+function zhivo_current_url(){
+	return home_url( $_SERVER['REQUEST_URI'] );
+}
+
+// Sanitize input data
+function zhivo_filter_data($dataArr) {
+	
+	foreach ($dataArr as $key => $value) {
+		//$value = strip_tags($value);
+		$value = trim($value);
+		$value = stripslashes($value);
+		$value = htmlspecialchars($value, ENT_QUOTES);
+		$dataArr[$key] = $value;
+	}
+	
+	return $dataArr;
+}
+
+// Check email address
+function zhivo_valid_email($email) {
+	$separator = strpos($email, '@');
+	$dot = strpos($email, '.');
+
+	if ($separator === false || $dot === false) {
+		return false;
+	} else {
+		return true;
+	}
 }

@@ -63,8 +63,8 @@ function zhivo_product_updated_messages( $messages ) {
 		7 => __( 'Product saved.', 'zhivo' ),
 		8 => __( 'Product submitted.', 'zhivo' ),
 		9 => sprintf(
+			// translators: Formatted date, see http://php.net/date
 			__( 'Product scheduled for: <strong>%1$s</strong>.', 'zhivo' ),
-			// translators: Publish box date format, see http://php.net/date
 			date_i18n( get_option('date_format').' '.get_option('time_format'), strtotime( $post->post_date ) )
 		),
 		10 => __( 'Product draft updated.', 'zhivo' )
