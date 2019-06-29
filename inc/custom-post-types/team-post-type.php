@@ -110,7 +110,7 @@ function zhivo_team_custom_columns( $column ) {
 	$position = array(
 					'ceo' => __( 'CEO', 'zhivo' ),
 					'manager' => __( 'Manager', 'zhivo' ),
-					'accountant' => __( 'Accauntant', 'zhivo' ),
+					'accountant' => __( 'Accountant', 'zhivo' ),
 					'cleaner' => __( 'Cleaner', 'zhivo' ),
 					);
 

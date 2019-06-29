@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zhivo 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/zhivo\n"
-"POT-Creation-Date: 2018-09-12T14:22:42+02:00\n"
-"PO-Revision-Date: 2018-09-12 15:23+0300\n"
+"POT-Creation-Date: 2019-06-29T19:07:12+02:00\n"
+"PO-Revision-Date: 2019-06-29 20:10+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -113,11 +113,11 @@ msgstr "Сообщение отправлено. Спасибо!"
 msgid "Some fields are not filled or filled incorrectly!"
 msgstr "Некоторые поля не заполнены или заполнены неправильно!"
 
-#: \header.php:25
+#: \header.php:26
 msgid "Skip to content"
 msgstr "Перейти к содержанию"
 
-#: \header.php:70
+#: \header.php:71
 msgid "Primary Menu"
 msgstr "Основное меню"
 
@@ -464,7 +464,7 @@ msgstr "Менеджер"
 
 #: \inc\custom-post-types\team-post-type.php:113
 #: \inc\metaboxes\team-metaboxes.php:13
-msgid "Accauntant"
+msgid "Accountant"
 msgstr "Бухгалтер"
 
 #: \inc\custom-post-types\team-post-type.php:114

@@ -10,7 +10,7 @@ function zhivo_team_meta() {
 				->add_options( array(
 					'ceo' => __( 'CEO', 'zhivo' ),
 					'manager' => __( 'Manager', 'zhivo' ),
-					'accountant' => __( 'Accauntant', 'zhivo' ),
+					'accountant' => __( 'Accountant', 'zhivo' ),
 					'cleaner' => __( 'Cleaner', 'zhivo' ),
 				) )
 			) );
@@ -18,4 +18,4 @@ function zhivo_team_meta() {
 add_action( 'carbon_fields_register_fields', 'zhivo_team_meta' );
 
 //zhivo_add_meta_to_search('_zhivo_team_first_name');
-zhivo_add_meta_to_search('_zhivo_team_position');
+//zhivo_add_meta_to_search('_zhivo_team_position');

@@ -1,4 +1,4 @@
-# Copyright (C) 2018 fractal512
+# Copyright (C) 2019 fractal512
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-09-12T14:22:42+02:00\n"
-"PO-Revision-Date: 2018-09-12T14:22:42+02:00\n"
+"POT-Creation-Date: 2019-06-29T19:07:12+02:00\n"
+"PO-Revision-Date: 2019-06-29T19:07:12+02:00\n"
 "X-Generator: WP-CLI 2.0.1\n"
 "X-Domain: zhivo\n"
 
@@ -107,11 +107,11 @@ msgstr ""
 msgid "Some fields are not filled or filled incorrectly!"
 msgstr ""
 
-#: \header.php:25
+#: \header.php:26
 msgid "Skip to content"
 msgstr ""
 
-#: \header.php:70
+#: \header.php:71
 msgid "Primary Menu"
 msgstr ""
 
@@ -458,7 +458,7 @@ msgstr ""
 
 #: \inc\custom-post-types\team-post-type.php:113
 #: \inc\metaboxes\team-metaboxes.php:13
-msgid "Accauntant"
+msgid "Accountant"
 msgstr ""
 
 #: \inc\custom-post-types\team-post-type.php:114
